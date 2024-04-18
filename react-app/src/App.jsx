@@ -1,14 +1,13 @@
-
-
-function App() {
-  
-
+import React from 'react'
+import Rest from "./component/Basics/Rest";
+const App = () => {
   return (
-    <>
-      <h1>hello world</h1>
-      
-    </>
+    <div>
+      <Rest></Rest>
+    </div>
   )
 }
 
 export default App
+
+
